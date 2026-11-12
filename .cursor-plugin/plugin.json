@@ -1,0 +1,41 @@
+{
+  "name": "mcp-b2b-social-video-transcripts",
+  "displayName": "B2B Social Video Transcripts",
+  "version": "1.0.0",
+  "description": "MCP server for B2B Social Video Transcripts: transcripts and outbound signals from TikTok, Reels, X, Threads, podcasts, and Wistia.",
+  "author": {
+    "name": "Mamba Labs",
+    "email": "labs@mambamindsetgrowth.com"
+  },
+  "homepage": "https://mambabuilt.com",
+  "repository": "https://github.com/mambalabsdev/mcp-b2b-social-video-transcripts",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "tiktok transcript",
+    "instagram reels transcript",
+    "podcast transcript",
+    "video transcript",
+    "buying signals",
+    "sales intelligence",
+    "outbound",
+    "icebreakers",
+    "apify",
+    "mcp"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "tiktok transcript",
+    "instagram reels transcript",
+    "podcast transcript",
+    "video transcript",
+    "buying signals",
+    "sales intelligence",
+    "outbound",
+    "icebreakers",
+    "apify",
+    "mcp"
+  ],
+  "mcpServers": ".mcp.json"
+}

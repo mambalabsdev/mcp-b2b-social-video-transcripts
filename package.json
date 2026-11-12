@@ -1,0 +1,55 @@
+{
+  "name": "@mambalabsdev/mcp-b2b-social-video-transcripts",
+  "version": "1.0.0",
+  "description": "MCP server for B2B Social Video Transcripts: transcripts and outbound signals from TikTok, Reels, X, Threads, podcasts, and Wistia.",
+  "type": "module",
+  "bin": {
+    "mcp-b2b-social-video-transcripts": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "tiktok transcript",
+    "instagram reels transcript",
+    "podcast transcript",
+    "video transcript",
+    "buying signals",
+    "sales intelligence",
+    "outbound",
+    "icebreakers",
+    "apify",
+    "mcp",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/b2b-social-video-transcripts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-b2b-social-video-transcripts"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-b2b-social-video-transcripts"
+}

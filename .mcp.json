@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-b2b-social-video-transcripts": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-b2b-social-video-transcripts"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
