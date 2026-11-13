@@ -1,6 +1,6 @@
 {
   "name": "@mambalabsdev/mcp-b2b-social-video-transcripts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for B2B Social Video Transcripts: transcripts and outbound signals from TikTok, Reels, X, Threads, podcasts, and Wistia.",
   "type": "module",
   "bin": {
